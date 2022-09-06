@@ -1,0 +1,97 @@
+.IMG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10px;
+}
+.AdvancedLabel{
+    color: #f28b82;
+    margin: 25px 35px;
+    font-size: 20px;
+}
+.Forms{
+    margin: 35px 45px;
+}
+.Borders{
+    border-bottom: 1px solid #ebebeb;
+    border-color: #ebebeb;
+}
+.FromTop{
+    margin-left: 500px;
+    height:50px;
+    text-align: right;
+    margin-top: 0px;
+    margin-right:50px ;
+}
+.Spans{
+    font-size: 17px;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.Button{
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    background: #4d90fe;
+    border-color: #3079ed;
+    color:white;
+    padding: 5px;
+    margin-top: 15px;
+   
+}
+.ButtonPos{
+    text-align: right;
+
+}
+#AdvancedLogo{
+    margin-top:10px ;
+    margin-left: 10px;
+}
+#Container1{
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
+#Container2{
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+#Inp{
+    margin-top: 9px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Label{
+    display: grid;
+    grid-template-columns: 200px 0px auto;
+    text-align: left;
+    clear: both;
+    float:left;
+    margin-right:auto;
+    margin-top: 33px;
+    margin-bottom: auto;
+
+}
+#AdvanceInput{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-top: 23px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
